@@ -1,0 +1,10 @@
+if global.Exp >= global.maxexp
+{
+	global.Exp =0;
+	global.level +=1;
+
+	global.hp=global.maxhp;
+	global.mp=global.maxmp;
+
+	global.maxexp=global.level*60;
+}
