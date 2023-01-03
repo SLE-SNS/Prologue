@@ -1,0 +1,36 @@
+//각 코드에 알맞게 넣으면 됨
+// npc 소스가 가만히 있는 소스가 없어서 방향 전환을 해야 함
+//개선점: script로 대화 가능하게 만들기 + 플레이어가 말을 걸면 멈추며, 어떤 키를 눌러야 대화할 수 있는지 개선하도록 할 것
+
+//CREATE EVENT
+state = "walk_towards_point";
+x_var = x-100;
+y_var = y;
+speed_var = 1;
+
+alarm[0] = 1;
+
+//STEP EVENT
+//state for walking towards new point
+
+if(state == "walk_towards_point")
+{
+    move_towards_point(x_var, y_var, speed_var);
+    sprite_index = breadman_walking_l;
+	if(distance_to_point(x_var, y_var) < 3)
+    {	
+		//sprite_index = breadman_stop_l;
+		state = "walk_back_to_start";
+    }
+}
+
+else if(state == "walk_back_to_start")
+{
+	sprite_index = breadman_walking_r;
+    move_towards_point(xstart, ystart, speed_var);
+    if(distance_to_point(xstart, ystart) < 3)
+    {	//sprite_index = breadman_stop;
+		state = "walk_towards_point";
+
+    }
+}
