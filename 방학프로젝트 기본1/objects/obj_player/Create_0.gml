@@ -1,0 +1,34 @@
+/// @description 여기에 설명 삽입
+// 이 에디터에 코드를 작성할 수 있습니다
+
+//중력
+grav = 1;
+
+//수직속도
+vsp = 0;
+
+//최대 점프 횟수
+maxJump = 2;
+
+//현재 점프 횟수
+jump = 0;
+
+//투사체 방향
+global.dir = 0;
+
+//상태변수
+enum stateType
+{
+	//0 = 평소, 1 = 공격, 2 = 피격, 3 = 죽
+	idle = 0, attack = 1, hit = 2, dead = 3
+}
+
+state = stateType.idle;
+
+//광폭화
+berserk = 0;
+
+//이속
+mspeed = 4;
+
+
