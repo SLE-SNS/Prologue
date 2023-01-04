@@ -156,7 +156,6 @@
     {"id":{"name":"adventurer_idle_2_02","path":"sprites/adventurer_idle_2_02/adventurer_idle_2_02.yy",},"order":2,},
     {"id":{"name":"oldman_idle","path":"sprites/oldman_idle/oldman_idle.yy",},"order":4,},
     {"id":{"name":"orange","path":"sprites/orange/orange.yy",},"order":2,},
-    {"id":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},"order":4,},
     {"id":{"name":"adventurer_slide_01","path":"sprites/adventurer_slide_01/adventurer_slide_01.yy",},"order":1,},
     {"id":{"name":"KakaoTalk_20230104_153849452","path":"sprites/KakaoTalk_20230104_153849452/KakaoTalk_20230104_153849452.yy",},"order":5,},
     {"id":{"name":"obj_portal1","path":"objects/obj_portal1/obj_portal1.yy",},"order":1,},
