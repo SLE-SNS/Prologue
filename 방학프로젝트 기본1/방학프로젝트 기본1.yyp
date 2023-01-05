@@ -159,6 +159,7 @@
     {"id":{"name":"orange","path":"sprites/orange/orange.yy",},"order":2,},
     {"id":{"name":"adventurer_slide_01","path":"sprites/adventurer_slide_01/adventurer_slide_01.yy",},"order":1,},
     {"id":{"name":"KakaoTalk_20230104_153849452","path":"sprites/KakaoTalk_20230104_153849452/KakaoTalk_20230104_153849452.yy",},"order":5,},
+    {"id":{"name":"obj_portal2","path":"objects/obj_portal2/obj_portal2.yy",},"order":2,},
     {"id":{"name":"obj_portal1","path":"objects/obj_portal1/obj_portal1.yy",},"order":1,},
     {"id":{"name":"startpage","path":"sprites/startpage/startpage.yy",},"order":12,},
     {"id":{"name":"Boom_Out__24x8_","path":"sprites/Boom_Out__24x8_/Boom_Out__24x8_.yy",},"order":5,},
@@ -171,6 +172,7 @@
     {"id":{"name":"adventurer_die_03","path":"sprites/adventurer_die_03/adventurer_die_03.yy",},"order":3,},
     {"id":{"name":"obj_pig","path":"objects/obj_pig/obj_pig.yy",},"order":0,},
     {"id":{"name":"adventurer_crouch_01","path":"sprites/adventurer_crouch_01/adventurer_crouch_01.yy",},"order":1,},
+    {"id":{"name":"sleroomsprite","path":"sprites/sleroomsprite/sleroomsprite.yy",},"order":6,},
     {"id":{"name":"adventurer_attack3_05","path":"sprites/adventurer_attack3_05/adventurer_attack3_05.yy",},"order":5,},
     {"id":{"name":"Dead_Out__24x8_","path":"sprites/Dead_Out__24x8_/Dead_Out__24x8_.yy",},"order":7,},
     {"id":{"name":"Closiong__46x56_","path":"sprites/Closiong__46x56_/Closiong__46x56_.yy",},"order":0,},
@@ -460,6 +462,6 @@
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"sign.png","CopyToMask":-1,"filePath":"datafiles/배경,npc/room/villeage",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.9.1.51",
+    "IDEVersion": "2022.11.1.56",
   },
 }

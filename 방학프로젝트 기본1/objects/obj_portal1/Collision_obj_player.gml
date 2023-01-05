@@ -16,9 +16,9 @@ if (keyboard_check_pressed(ord("F")))
 	}
 	else if (room == forest1){
 		room_goto(villeage);
-		obj_camera.x = 1250;
-		obj_camera.y = 250;
-		obj_player.x = 1250;
-		obj_player.y = 250;
+		obj_camera.x = 1730;
+		obj_camera.y = 200;
+		obj_player.x = 1730;
+		obj_player.y = 200;
 	}
 }
