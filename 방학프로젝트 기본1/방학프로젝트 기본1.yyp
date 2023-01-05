@@ -164,6 +164,7 @@
     {"id":{"name":"grass_1181","path":"sprites/grass_1181/grass_1181.yy",},"order":2,},
     {"id":{"name":"Loser_Out__24x8_","path":"sprites/Loser_Out__24x8_/Loser_Out__24x8_.yy",},"order":15,},
     {"id":{"name":"Big_Heart_Hit__18x14_","path":"sprites/Big_Heart_Hit__18x14_/Big_Heart_Hit__18x14_.yy",},"order":2,},
+    {"id":{"name":"forest2","path":"rooms/forest2/forest2.yy",},"order":4,},
     {"id":{"name":"forest_background","path":"sprites/forest_background/forest_background.yy",},"order":1,},
     {"id":{"name":"Live_Bar","path":"sprites/Live_Bar/Live_Bar.yy",},"order":4,},
     {"id":{"name":"adventurer_die_03","path":"sprites/adventurer_die_03/adventurer_die_03.yy",},"order":3,},
@@ -227,6 +228,7 @@
     {"roomId":{"name":"villeage","path":"rooms/villeage/villeage.yy",},},
     {"roomId":{"name":"forest1","path":"rooms/forest1/forest1.yy",},},
     {"roomId":{"name":"sle","path":"rooms/sle/sle.yy",},},
+    {"roomId":{"name":"forest2","path":"rooms/forest2/forest2.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"경로","folderPath":"folders/경로.yy","order":4,},
@@ -457,6 +459,6 @@
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"sign.png","CopyToMask":-1,"filePath":"datafiles/배경,npc/room/villeage",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.11.1.56",
+    "IDEVersion": "2022.9.1.51",
   },
 }
