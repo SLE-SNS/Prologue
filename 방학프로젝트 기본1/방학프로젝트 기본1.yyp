@@ -39,6 +39,7 @@
     {"id":{"name":"blue","path":"sprites/blue/blue.yy",},"order":0,},
     {"id":{"name":"adventurer_die_02","path":"sprites/adventurer_die_02/adventurer_die_02.yy",},"order":2,},
     {"id":{"name":"shop_anim","path":"sprites/shop_anim/shop_anim.yy",},"order":10,},
+    {"id":{"name":"startroom","path":"rooms/startroom/startroom.yy",},"order":5,},
     {"id":{"name":"____In__24x8_","path":"sprites/____In__24x8_/____In__24x8_.yy",},"order":0,},
     {"id":{"name":"Attack__38x28_","path":"sprites/Attack__38x28_/Attack__38x28_.yy",},"order":0,},
     {"id":{"name":"villeage_background_layer_2","path":"sprites/villeage_background_layer_2/villeage_background_layer_2.yy",},"order":14,},
@@ -88,7 +89,6 @@
     {"id":{"name":"Small_Heart_Hit__18x14_","path":"sprites/Small_Heart_Hit__18x14_/Small_Heart_Hit__18x14_.yy",},"order":7,},
     {"id":{"name":"adventurer_run_03","path":"sprites/adventurer_run_03/adventurer_run_03.yy",},"order":3,},
     {"id":{"name":"Attack_In__24x8_","path":"sprites/Attack_In__24x8_/Attack_In__24x8_.yy",},"order":2,},
-    {"id":{"name":"press_start2","path":"sprites/press_start2/press_start2.yy",},"order":1,},
     {"id":{"name":"lamp","path":"sprites/lamp/lamp.yy",},"order":5,},
     {"id":{"name":"adventurer_attack3_01","path":"sprites/adventurer_attack3_01/adventurer_attack3_01.yy",},"order":1,},
     {"id":{"name":"sprite12_strip6","path":"sprites/sprite12_strip6/sprite12_strip6.yy",},"order":1,},
@@ -182,6 +182,7 @@
     {"id":{"name":"normal_attack","path":"objects/normal_attack/normal_attack.yy",},"order":1,},
     {"id":{"name":"adventurer_hurt_01","path":"sprites/adventurer_hurt_01/adventurer_hurt_01.yy",},"order":1,},
     {"id":{"name":"HUD_Front","path":"sprites/HUD_Front/HUD_Front.yy",},"order":4,},
+    {"id":{"name":"objpressstart","path":"objects/objpressstart/objpressstart.yy",},"order":6,},
     {"id":{"name":"adventurer_items_01","path":"sprites/adventurer_items_01/adventurer_items_01.yy",},"order":1,},
     {"id":{"name":"oak","path":"tilesets/oak/oak.yy",},"order":1,},
     {"id":{"name":"jungle_background1","path":"sprites/jungle_background1/jungle_background1.yy",},"order":7,},
@@ -204,6 +205,7 @@
     {"id":{"name":"File1","path":"sprites/File1/File1.yy",},"order":0,},
     {"id":{"name":"adventurer_attack2_00","path":"sprites/adventurer_attack2_00/adventurer_attack2_00.yy",},"order":0,},
     {"id":{"name":"Box_Pieces_4","path":"sprites/Box_Pieces_4/Box_Pieces_4.yy",},"order":3,},
+    {"id":{"name":"obj_npc1","path":"objects/obj_npc1/obj_npc1.yy",},"order":0,},
     {"id":{"name":"SkillSlots","path":"sprites/SkillSlots/SkillSlots.yy",},"order":16,},
     {"id":{"name":"cavesofgallet_tiles","path":"sprites/cavesofgallet_tiles/cavesofgallet_tiles.yy",},"order":0,},
     {"id":{"name":"adventurer_stand_00","path":"sprites/adventurer_stand_00/adventurer_stand_00.yy",},"order":0,},
@@ -227,6 +229,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"startroom","path":"rooms/startroom/startroom.yy",},},
     {"roomId":{"name":"tutorial","path":"rooms/tutorial/tutorial.yy",},},
     {"roomId":{"name":"villeage","path":"rooms/villeage/villeage.yy",},},
     {"roomId":{"name":"forest1","path":"rooms/forest1/forest1.yy",},},
@@ -286,6 +289,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"타일 세트","folderPath":"folders/타일 세트.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"타임라인","folderPath":"folders/타임라인.yy","order":8,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"확장","folderPath":"folders/확장.yy","order":14,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"npc","folderPath":"folders/오브젝트/npc.yy","order":5,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
@@ -462,6 +466,6 @@
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"sign.png","CopyToMask":-1,"filePath":"datafiles/배경,npc/room/villeage",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.11.1.56",
+    "IDEVersion": "2022.9.1.51",
   },
 }
