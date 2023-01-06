@@ -21,4 +21,3 @@ global.atkspeed = 1.0;
 //카메라
 view_camera[0] = camera_create_view(0,0,640,360,0,obj_player,-1,-1,640,360)
 
-window_set_fullscreen(1);
