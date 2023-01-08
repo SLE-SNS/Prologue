@@ -1,7 +1,7 @@
 /// @description 인터페이스
 // 이 에디터에 코드를 작성할 수 있습니다
 
-
+draw_set_font(Font2);
 
 //인터페이스
 var cam_x=camera_get_view_x(view_camera[0])
