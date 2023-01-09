@@ -4,24 +4,33 @@
 if(state == "walk_towards_point")
 {
     move_towards_point(x_var, y_var, speed_var);
-    sprite_index = beardman_walk;
-	image_xscale = -1;
+    
+	//sprite_index = bearded_walk;
 	if(distance_to_point(x_var, y_var) < 3)
     {	
-		//sprite_index = breadman_stop_l;
+		image_xscale = 1;
 		state = "walk_back_to_start";
     }
 }
 
 else if(state == "walk_back_to_start")
 {
-	sprite_index = beardman_walk;
+	sprite_index = bearded_walk;
     move_towards_point(xstart, ystart, speed_var);
     if(distance_to_point(xstart, ystart) < 3)
-    {	//sprite_index = breadman_stop;
+    {	image_xscale = -1;
 		state = "walk_towards_point";
+	}
+}
 
-    }
+if (obj_player.x > obj_npc1.x-20 && obj_player.x < obj_npc1.x+20){
+	sprite_index = bearded_idle;
+	x = obj_npc1.x;
+	y = obj_npc1.y;
+	speed = 0;
+	if(obj_player.x > obj_npc1.x-20) {
+		image_xscale = -1;
+	}
 }
 
 
