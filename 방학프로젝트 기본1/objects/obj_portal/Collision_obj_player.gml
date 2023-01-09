@@ -7,10 +7,10 @@ if (keyboard_check_pressed(ord("F")))
 {
 	if(room == tutorial){
 		room_goto(villeage);
-		obj_camera.x = 50;
-		obj_camera.y = 180;
-		obj_player.x = 50;
-		obj_player.y = 180;
+		obj_camera.x = 70;
+		obj_camera.y = 130;
+		obj_player.x = 70;
+		obj_player.y = 130;
 
 
 	}
