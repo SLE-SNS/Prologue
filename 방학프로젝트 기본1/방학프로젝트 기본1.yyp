@@ -466,6 +466,6 @@
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"sign.png","CopyToMask":-1,"filePath":"datafiles/배경,npc/room/villeage",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.11.1.56",
+    "IDEVersion": "2022.9.1.51",
   },
 }
