@@ -75,6 +75,7 @@
     {"id":{"name":"sign","path":"sprites/sign/sign.yy",},"order":11,},
     {"id":{"name":"adventurer_attack1_03","path":"sprites/adventurer_attack1_03/adventurer_attack1_03.yy",},"order":3,},
     {"id":{"name":"LeftAngel","path":"sprites/LeftAngel/LeftAngel.yy",},"order":5,},
+    {"id":{"name":"gdb_keyboard_2","path":"sprites/gdb_keyboard_2/gdb_keyboard_2.yy",},"order":7,},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
     {"id":{"name":"Hit__38x28_","path":"sprites/Hit__38x28_/Hit__38x28_.yy",},"order":4,},
     {"id":{"name":"Jump__34x28_","path":"sprites/Jump__34x28_/Jump__34x28_.yy",},"order":6,},
@@ -493,6 +494,6 @@
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"한글2350자+희귀한글.txt","CopyToMask":-1,"filePath":"datafiles",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.11.1.56",
+    "IDEVersion": "2022.9.1.51",
   },
 }
