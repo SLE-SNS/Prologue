@@ -224,7 +224,7 @@
     {"id":{"name":"tutorial","path":"rooms/tutorial/tutorial.yy",},"order":0,},
   ],
   "Options": [
-    {"name":"Windows","path":"options/windows/options_windows.yy",},
+    {"name":"macOS","path":"options/mac/options_mac.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
   ],
