@@ -15,6 +15,15 @@ function loadGame(){
 			with(instance_create_layer(0,0, "instances", asset_get_index(_loadEntity.obj))){
 				//var load = asset_get_index(_loadEntity.currentLevel);
 				global.level = _loadEntity.currentLevel;
+				global.hp = _loadEntity.currenthp;
+				global.Exp = _loadEntity.currentExp;
+				global.atk = _loadEntity.currentatk;
+				global.atkspeed = _loadEntity.currentatkspeed;
+				global.dir = _loadEntity.currentdir;
+				global.maxexp = _loadEntity.currentexp;
+				global.maxhp = _loadEntity.currentmaxhp;
+				global.maxmp = _loadEntity.currentmaxmp;
+				global.mp = _loadEntity.currentmp;
 			}
 		}
 		

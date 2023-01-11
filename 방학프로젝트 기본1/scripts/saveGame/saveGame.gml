@@ -7,7 +7,16 @@ function saveGame(){
 		
 		var _saveGameData ={ // 실질적인 데이터의 구조 생성
 			obj : object_get_name(object_index), // obj 이름
-			currentLevel : global.level // 현재 level
+			currentLevel : global.level, // 현재 level
+			currenthp : global.hp,
+			currentExp : global.Exp,
+			currentatk : global.atk,
+			currentatkspeed : global.atkspeed,
+			currentdir : global.dir,
+			currentexp : global.maxexp,
+			currentmaxhp : global.maxhp,
+			currentmaxmp : global.maxmp,
+			currentmp : global.mp
 		}
 		
 		array_push(_saveData, _saveGameData); // 실질적인 데이터를ㅎ데이ㅣ터를 저장할 배열에 push
