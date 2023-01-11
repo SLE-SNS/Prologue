@@ -124,6 +124,7 @@
     {"id":{"name":"shop_anim191","path":"sprites/shop_anim191/shop_anim191.yy",},"order":12,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":2,},
     {"id":{"name":"adventurer_jump_02","path":"sprites/adventurer_jump_02/adventurer_jump_02.yy",},"order":2,},
+    {"id":{"name":"saveGame","path":"scripts/saveGame/saveGame.yy",},"order":0,},
     {"id":{"name":"adventurer_die_04","path":"sprites/adventurer_die_04/adventurer_die_04.yy",},"order":4,},
     {"id":{"name":"Fall__34x28_","path":"sprites/Fall__34x28_/Fall__34x28_.yy",},"order":2,},
     {"id":{"name":"jungle_background3","path":"sprites/jungle_background3/jungle_background3.yy",},"order":9,},
