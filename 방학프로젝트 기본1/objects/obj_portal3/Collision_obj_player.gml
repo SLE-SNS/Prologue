@@ -9,15 +9,20 @@ if (keyboard_check_pressed(ord("F")))
 		obj_camera.y = 180;
 		obj_player.x = 60;
 		obj_player.y = 180;
-
-
+	}
+	else if (room == forest2){
+		room_goto(villeage2);
+		obj_camera.x = 110;
+		obj_camera.y = 137;
+		obj_player.x = 110;
+		obj_player.y = 137;
 	}
 	else if (room == villeage2){
-		room_goto(villeage);
-		obj_camera.x = 1050;
-		obj_camera.y = 90;
-		obj_player.x = 1050;
-		obj_player.y = 90;
+		room_goto(forest2);
+		obj_camera.x = 2687;
+		obj_camera.y = 285;
+		obj_player.x = 2687;
+		obj_player.y = 285;
 	}
 }
 

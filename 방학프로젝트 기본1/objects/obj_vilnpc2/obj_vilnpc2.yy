@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_npc1",
+  "name": "obj_vilnpc2",
   "spriteId": {
     "name": "bearded_walk",
     "path": "sprites/bearded_walk/bearded_walk.yy",

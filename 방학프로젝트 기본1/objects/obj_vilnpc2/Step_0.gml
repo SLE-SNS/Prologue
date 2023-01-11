@@ -23,12 +23,12 @@ else if(state == "walk_back_to_start")
 	}
 }
 
-if (obj_player.x > obj_npc1.x-20 && obj_player.x < obj_npc1.x+20){
+if (obj_player.x > obj_vilnpc2.x-20 && obj_player.x < obj_vilnpc2.x+20){
 	sprite_index = bearded_idle;
-	x = obj_npc1.x;
-	y = obj_npc1.y;
+	x = obj_vilnpc2.x;
+	y = obj_vilnpc2.y;
 	speed = 0;
-	if(obj_player.x > obj_npc1.x-20) {
+	if(obj_player.x > obj_vilnpc2.x-20) {
 		image_xscale = -1;
 	}
 }
