@@ -4,7 +4,7 @@
 
 //CREATE EVENT
 state = "walk_towards_point";
-x_var = x-100;
+x_var = x+100;
 y_var = y;
 speed_var = 1;
 

@@ -8,7 +8,7 @@ if(state == "walk_towards_point")
 	//sprite_index = bearded_walk;
 	if(distance_to_point(x_var, y_var) < 3)
     {	
-		image_xscale = 1;
+		image_xscale = -1;
 		state = "walk_back_to_start";
     }
 }
@@ -18,7 +18,7 @@ else if(state == "walk_back_to_start")
 	sprite_index = bearded_walk;
     move_towards_point(xstart, ystart, speed_var);
     if(distance_to_point(xstart, ystart) < 3)
-    {	image_xscale = -1;
+    {	image_xscale = 1;
 		state = "walk_towards_point";
 	}
 }
