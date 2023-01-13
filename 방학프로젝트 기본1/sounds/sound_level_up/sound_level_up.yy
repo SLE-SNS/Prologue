@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "_07_human_atk_sword_1",
+  "name": "sound_level_up",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "_07_human_atk_sword_1.wav",
-  "duration": 0.666667,
+  "soundFile": "sound_level_up.wav",
+  "duration": 1.333333,
   "parent": {
     "name": "사운드",
     "path": "folders/사운드.yy",

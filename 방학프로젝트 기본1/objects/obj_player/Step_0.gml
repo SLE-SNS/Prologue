@@ -65,7 +65,9 @@ if(state == stateType.idle) {
 		{
 		vsp = -12;
 		jump++;
+		audio_play_sound(_12_human_jump_2,0,false); // 사운드 추가
 		}
+		audio_play_sound(_12_human_jump_2,0,false); // 사운드 추가
 	}
 }
 
@@ -79,6 +81,7 @@ if(state == stateType.idle) {
 		var inst = instance_create_layer(x, y, "Instances", normal_attack);
 		
 		alarm[0] = global.atkspeed * room_speed;
+		audio_play_sound(sound_attack,0,false); // 사운드 추가
 	}
 }
 
@@ -91,6 +94,7 @@ if (global.hp<=0) {
 //레벨업 이펙트
 if (global.Exp>=global.maxexp) {
 	var inst = instance_create_layer(x, y, "Instances",levelup_obj);
+	audio_play_sound(sound_level_up,0,false); // 사운드 추가
 }
 
 //광폭화

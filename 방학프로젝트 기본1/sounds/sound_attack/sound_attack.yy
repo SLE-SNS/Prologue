@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "_07_human_atk_sword_2",
+  "name": "sound_attack",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -14,7 +14,7 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "_07_human_atk_sword_2.wav",
+  "soundFile": "sound_attack.wav",
   "duration": 0.666667,
   "parent": {
     "name": "사운드",
