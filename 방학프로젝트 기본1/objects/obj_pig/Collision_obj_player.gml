@@ -5,6 +5,7 @@
 if (state = 0) {
 	if (alarm[1] <= 0) {
 		global.hp -= 8+(global.level*2);
+		audio_play_sound(_11_human_damage_3,0,false); // 사운드 추가
 	
 		if (global.hp>0) {
 		alarm[1] = 1*room_speed;
