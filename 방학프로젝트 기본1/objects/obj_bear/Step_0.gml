@@ -22,8 +22,6 @@ if (state = 0) {
 }
 
 //상하 이동
-
-/*
 if (vsp < 8) {vsp += grav;}
 
 if !place_meeting(x, y+vsp, collisionBox)
@@ -45,6 +43,9 @@ else
 	}
 }
 
+
+// random jump
+/*
 if (state = 0) {
 	if (random_range(0,100)<8) {
 		if (jump < maxJump) 
