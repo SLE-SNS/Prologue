@@ -35,3 +35,9 @@ else if(room == cave){
 	obj_player.x = 90;
 	obj_player.y = 220;
 }
+else if(room == castle){
+	obj_camera.x = 70;
+	obj_camera.y = 180;
+	obj_player.x = 70;
+	obj_player.y = 180;
+}
