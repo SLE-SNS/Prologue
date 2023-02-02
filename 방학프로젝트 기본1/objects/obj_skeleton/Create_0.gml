@@ -9,7 +9,7 @@ grav = 1;
 vsp = 0;
 
 maxJump = 2;
- 
+
 jump = 0;
 
 maxhp = 40+(global.level*10);

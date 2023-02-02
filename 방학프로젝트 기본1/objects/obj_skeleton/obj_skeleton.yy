@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_skeleton",
+  "name": "obj_Skeleton",
   "spriteId": {
     "name": "Skeleton_Walk",
     "path": "sprites/Skeleton_Walk/Skeleton_Walk.yy",

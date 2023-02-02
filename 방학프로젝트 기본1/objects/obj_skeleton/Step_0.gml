@@ -40,7 +40,7 @@ else
 
 if (state = 0) {
 	if (random_range(0,100)<1) {
-		state = 1;
+		state = 3;
 		sprite_index = Skeleton_Attack;
 		image_index = 0;
 		alarm[5] = 1.0*room_speed;

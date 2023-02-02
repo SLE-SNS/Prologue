@@ -4,4 +4,7 @@
 
 
 
+if (alarm[1] <= 0) {
 nextroom += 1;
+alarm[1] = 0.5 * room_speed;
+}
