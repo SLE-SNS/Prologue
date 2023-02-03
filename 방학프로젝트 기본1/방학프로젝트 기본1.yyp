@@ -4,7 +4,7 @@
   "name": "방학프로젝트 기본1",
   "resources": [
     {"id":{"name":"HUD_Back","path":"sprites/HUD_Back/HUD_Back.yy",},"order":3,},
-    {"id":{"name":"tutorialchat2","path":"objects/tutorialchat2/tutorialchat2.yy",},"order":2,},
+    {"id":{"name":"endingchat","path":"objects/endingchat/endingchat.yy",},"order":2,},
     {"id":{"name":"adventurer_die_00","path":"sprites/adventurer_die_00/adventurer_die_00.yy",},"order":0,},
     {"id":{"name":"plant_2","path":"sprites/plant_2/plant_2.yy",},"order":7,},
     {"id":{"name":"rock_3","path":"sprites/rock_3/rock_3.yy",},"order":8,},
@@ -43,6 +43,7 @@
     {"id":{"name":"char_blue","path":"sprites/char_blue/char_blue.yy",},"order":0,},
     {"id":{"name":"Hello_In__24x8_","path":"sprites/Hello_In__24x8_/Hello_In__24x8_.yy",},"order":8,},
     {"id":{"name":"bearded_idle","path":"sprites/bearded_idle/bearded_idle.yy",},"order":0,},
+    {"id":{"name":"tutorialchat2","path":"objects/tutorialchat2/tutorialchat2.yy",},"order":4,},
     {"id":{"name":"spr_collision","path":"sprites/spr_collision/spr_collision.yy",},"order":3,},
     {"id":{"name":"adventurer_hurt_00","path":"sprites/adventurer_hurt_00/adventurer_hurt_00.yy",},"order":0,},
     {"id":{"name":"adventurer_attack3_04","path":"sprites/adventurer_attack3_04/adventurer_attack3_04.yy",},"order":4,},
@@ -334,6 +335,7 @@
     {"id":{"name":"HUD_Front","path":"sprites/HUD_Front/HUD_Front.yy",},"order":4,},
     {"id":{"name":"objpressstart","path":"objects/objpressstart/objpressstart.yy",},"order":5,},
     {"id":{"name":"adventurer_items_01","path":"sprites/adventurer_items_01/adventurer_items_01.yy",},"order":1,},
+    {"id":{"name":"obj_systemend","path":"objects/obj_systemend/obj_systemend.yy",},"order":10,},
     {"id":{"name":"slimeIdleRun","path":"sprites/slimeIdleRun/slimeIdleRun.yy",},"order":1,},
     {"id":{"name":"burning_loop_4269","path":"sprites/burning_loop_4269/burning_loop_4269.yy",},"order":3,},
     {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},"order":0,},
@@ -390,6 +392,7 @@
     {"id":{"name":"burning_end_2307","path":"sprites/burning_end_2307/burning_end_2307.yy",},"order":1,},
     {"id":{"name":"loadGame","path":"scripts/loadGame/loadGame.yy",},"order":1,},
     {"id":{"name":"sound_level_up","path":"sounds/sound_level_up/sound_level_up.yy",},"order":17,},
+    {"id":{"name":"sle2","path":"rooms/sle2/sle2.yy",},"order":10,},
     {"id":{"name":"Loser_In__24x8_","path":"sprites/Loser_In__24x8_/Loser_In__24x8_.yy",},"order":14,},
     {"id":{"name":"sign190","path":"sprites/sign190/sign190.yy",},"order":11,},
     {"id":{"name":"burning_start_4274","path":"sprites/burning_start_4274/burning_start_4274.yy",},"order":3,},
@@ -418,6 +421,7 @@
     {"roomId":{"name":"cave","path":"rooms/cave/cave.yy",},},
     {"roomId":{"name":"castle","path":"rooms/castle/castle.yy",},},
     {"roomId":{"name":"bossroom","path":"rooms/bossroom/bossroom.yy",},},
+    {"roomId":{"name":"sle2","path":"rooms/sle2/sle2.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"경로","folderPath":"folders/경로.yy","order":4,},
@@ -696,6 +700,6 @@
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Take hit.png","CopyToMask":-1,"filePath":"datafiles/EVil Wizard 2/EVil Wizard 2/Sprites",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.9.1.51",
+    "IDEVersion": "2022.11.1.56",
   },
 }
