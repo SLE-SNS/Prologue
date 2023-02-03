@@ -24,6 +24,19 @@ else if (room == cave){
 	audio_pause_all();
 	audio_play_sound(sound_cave,2,true);
 }
+else if (room == castle){
+	audio_pause_all();
+	audio_play_sound(sound_castle,2,true);
+}
+else if (room == bossroom){
+	audio_pause_all();
+	audio_play_sound(sound_fight_boss,2,true);
+	notend = 1;
+}
+else if(room == sle2 && notend == 1){
+	audio_pause_all();
+	audio_play_sound(backtorealism,3,true);
+}
 
 
 

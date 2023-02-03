@@ -91,6 +91,7 @@ if (global.hp<=0) {
 	state = stateType.dead;
 }
 
+
 //레벨업 이펙트
 if (global.Exp>=global.maxexp) {
 	var inst = instance_create_layer(x, y, "Instances",levelup_obj);

@@ -43,6 +43,7 @@ if (state = 0) {
 		state = 3;
 		var inst = instance_create_layer(x-50, y-200, "Instances", bossattack1);
 		sprite_index = Attack1;
+		audio_play_sound(boss_attack,0,false); // 사운드 추가
 		image_index = 0;
 		alarm[5] = 1.0*room_speed;
 	}
@@ -50,6 +51,7 @@ if (state = 0) {
 		state = 3;
 		var inst = instance_create_layer(x-50, y-200, "Instances", bossattack2);
 		sprite_index = Attack2;
+		audio_play_sound(boss_attack,0,false); // 사운드 추가
 		image_index = 0;
 		alarm[5] = 1.0*room_speed;
 	}
