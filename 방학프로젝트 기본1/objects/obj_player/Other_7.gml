@@ -6,6 +6,7 @@
 if (state == stateType.dead) {
 	image_speed = 0;
 	image_index = image_number -1;
+	alarm[4] = 1.5*room_speed;
 }
 
 else if (state == stateType.attack) {

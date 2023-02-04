@@ -29,6 +29,7 @@
     {"id":{"name":"Dead__38x28_","path":"sprites/Dead__38x28_/Dead__38x28_.yy",},"order":1,},
     {"id":{"name":"foresttile2","path":"tilesets/foresttile2/foresttile2.yy",},"order":3,},
     {"id":{"name":"burning_loop_5300","path":"sprites/burning_loop_5300/burning_loop_5300.yy",},"order":4,},
+    {"id":{"name":"retrybutton","path":"objects/retrybutton/retrybutton.yy",},"order":4,},
     {"id":{"name":"grass_3183","path":"sprites/grass_3183/grass_3183.yy",},"order":4,},
     {"id":{"name":"rock_2186","path":"sprites/rock_2186/rock_2186.yy",},"order":7,},
     {"id":{"name":"crate","path":"sprites/crate/crate.yy",},"order":5,},
@@ -252,6 +253,7 @@
     {"id":{"name":"Take_hit","path":"sprites/Take_hit/Take_hit.yy",},"order":7,},
     {"id":{"name":"bearded_walk","path":"sprites/bearded_walk/bearded_walk.yy",},"order":1,},
     {"id":{"name":"adventurer_run_02","path":"sprites/adventurer_run_02/adventurer_run_02.yy",},"order":2,},
+    {"id":{"name":"Sprite324","path":"sprites/Sprite324/Sprite324.yy",},"order":22,},
     {"id":{"name":"burning_loop_1281","path":"sprites/burning_loop_1281/burning_loop_1281.yy",},"order":0,},
     {"id":{"name":"middleground","path":"sprites/middleground/middleground.yy",},"order":1,},
     {"id":{"name":"adventurer_attack2_01","path":"sprites/adventurer_attack2_01/adventurer_attack2_01.yy",},"order":1,},
@@ -712,6 +714,6 @@
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Take hit.png","CopyToMask":-1,"filePath":"datafiles/EVil Wizard 2/EVil Wizard 2/Sprites",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.9.1.51",
+    "IDEVersion": "2022.11.1.56",
   },
 }
