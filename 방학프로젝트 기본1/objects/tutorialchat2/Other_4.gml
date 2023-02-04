@@ -15,3 +15,7 @@
 			ds_list_add(_list, _arr);
 		}
 	}
+if (!instance_exists(obj_camera)) {
+	var _tb = instance_create_layer(0, 0, "Instances", obj_camera);
+	var _tb = instance_create_layer(100, 250, "Instances", obj_player);
+}

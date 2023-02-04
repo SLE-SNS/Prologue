@@ -163,7 +163,7 @@
     {"id":{"name":"fence_2","path":"sprites/fence_2/fence_2.yy",},"order":1,},
     {"id":{"name":"Idle","path":"sprites/Idle/Idle.yy",},"order":5,},
     {"id":{"name":"slimeHit","path":"sprites/slimeHit/slimeHit.yy",},"order":3,},
-    {"id":{"name":"Object35","path":"objects/Object35/Object35.yy",},"order":11,},
+    {"id":{"name":"Obj_resetbutton","path":"objects/Obj_resetbutton/Obj_resetbutton.yy",},"order":11,},
     {"id":{"name":"tileset210","path":"sprites/tileset210/tileset210.yy",},"order":3,},
     {"id":{"name":"burning_end_4","path":"sprites/burning_end_4/burning_end_4.yy",},"order":3,},
     {"id":{"name":"draw_9slice","path":"scripts/draw_9slice/draw_9slice.yy",},"order":0,},
